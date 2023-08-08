@@ -1,5 +1,6 @@
 ## Members
 Colton Tshudy, EE CRA '24, coltont@vt.edu
+<img src="./images/me.png" />
 
 ## Repo Link
 <a class="button is-link" href="https://github.com/ColtonTshudy/coltont-vesc" >https://github.com/ColtonTshudy/coltont-vesc</a>
