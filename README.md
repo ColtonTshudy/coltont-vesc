@@ -32,7 +32,7 @@ This project is intended to improve my ability to understand and design circuits
 
 ## Tasks
 
-###Prototyping:
+### Prototyping:
 Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board to interface with a STM32F07 dev board
 - Consists of mosfet driver and power stage design. Control board is handled mostly by the development board.
 Layout: Design the PCB layout (may have to meet with colleagues or professors or other online research)
@@ -44,7 +44,7 @@ Verification: Use VESC tool (computer software) to interface with the test setup
 Testing: Connect a small motor and tweak settings
 Hardware revision (if necessary): Revise test setup hardware to resolved issues found in steps above
 
-###Real Deal:
+### Real Deal:
 Schematic: Use lessons learned from the above project to design an all-in-one schematic with onboard STM32F405
 - Won't somebody think of the GPIO protection!
 Layout: Design the PCB layout
