@@ -33,9 +33,10 @@ This project is intended to improve my ability to understand and design circuits
 ## Tasks
 
 Prototyping:
-Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board
+Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board to interface with a STM32F07 dev board
+- Consists of mosfet driver and power stage design. Control board is handled mostly by the development board.
 Layout: Design the PCB layout (may have to meet with colleagues or professors or other online research)
-Acquisition: Purchase parts required for the test setup (STM32F40X dev board, pcb described above)
+Acquisition: Purchase parts required for the test setup (STM32F407 dev board, pcb described above)
 Order PCB: JLCPCB or similar (no solder stencil required here?)
 Assembly: Assemble/solder the test setup
 Programming: Modify the VESC firmware to work with the test setup
@@ -81,9 +82,18 @@ Coming soon!
 TODO
 
 ## Useful Links
+VESC
+- Firmware: https://github.com/vedderb/bldc
+- Schematics: https://vesc-project.com/node/311
+- CAN Frames: https://github.com/codermonkey42/VESC_CAN
 
-<!-- Your Text Here. See Example above -->
+Colton Tshudy
+- https://github.com/ColtonTshudy/vesc-dash
+- https://github.com/ColtonTshudy/vesc-dash-3
+- https://github.com/ColtonTshudy/vesc-can-websocket
 
+VESC Development Discord
+- https://vesc-project.com/node/3284
 
 ## Log
 
