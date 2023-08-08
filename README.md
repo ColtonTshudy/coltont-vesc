@@ -1,15 +1,14 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Colton Tshudy, EE CRA '24, coltont@vt.edu
 
 ## Repo Link
-<a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
+<a class="button is-link" href="https://github.com/ColtonTshudy/coltont-vesc" >https://github.com/ColtonTshudy/coltont-vesc</a>
 
 ## Photo
-{% include youtube.html video="miltuOLWDFQ" %}
+<img src=<./images/75-300-vesc-default.png>
 
 ## Mentor
-Josh Sutton, Electrical Engineering 2021
+
 
 ## Current Status
 Complete
