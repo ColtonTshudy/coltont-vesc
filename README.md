@@ -5,7 +5,7 @@ Colton Tshudy, EE CRA '24, coltont@vt.edu
 <a class="button is-link" href="https://github.com/ColtonTshudy/coltont-vesc" >https://github.com/ColtonTshudy/coltont-vesc</a>
 
 ## Photo
-<img src=<./images/75-300-vesc-default.png>
+<img src="./images/75-300-vesc-default.png" alt="Vesc 6 based 75V 300A schematic created by Benajmin Vedder" />
 
 ## Mentor
 
