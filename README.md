@@ -59,9 +59,12 @@ Hardware revision (if necessary): Revise PCB design and repeat above steps
 
 ## Design Decisions
 
-#Brushless Motor Control Methodology
+# Brushless Motor Control Methodology
 Controlling the speed of a brushless DC motor requires modulating the voltage at the three phases of the motor, referred to as U, V, W. There are generally two methodologies for controlling brushless DC motors: pulse width modulation (PWM) and field oriented control (FOC).
 Based on preliminary research, field oriented control (FOC) provides more low-end torque but lower top speeds. PWM control provides higher top speed but lower torque. Utilizing the VESC firmware, we will be able to swap between these two modes, provided we use the VESC 6 hardware standard.
+
+# Feature set
+TODO
 
 ## Design Misc
 
