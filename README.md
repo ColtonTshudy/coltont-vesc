@@ -33,29 +33,29 @@ This project is intended to improve my ability to understand and design circuits
 ## Tasks
 
 ### Prototyping:
-Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board to interface with a STM32F07 dev board <br/>
-- Consists of mosfet driver and power stage design. Control board is handled mostly by the development board. <br/>
-Layout: Design the PCB layout (may have to meet with colleagues or professors or other online research) <br/>
-Acquisition: Purchase parts required for the test setup (STM32F407 dev board, pcb described above) <br/>
-Order PCB: JLCPCB or similar (no solder stencil required here?) <br/>
-Assembly: Assemble/solder the test setup <br/>
-Programming: Modify the VESC firmware to work with the test setup <br/>
-Verification: Use VESC tool (computer software) to interface with the test setup, test sensors for correct readings through this software <br/>
-Testing: Connect a small motor and tweak settings <br/>
-Hardware revision (if necessary): Revise test setup hardware to resolved issues found in steps above <br/>
+- Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board to interface with a STM32F07 dev board <br/>
+  - Consists of mosfet driver and power stage design. Control board is handled mostly by the development board. <br/>
+- Layout: Design the PCB layout (may have to meet with colleagues or professors or other online research) <br/>
+- Acquisition: Purchase parts required for the test setup (STM32F407 dev board, pcb described above) <br/>
+- Order PCB: JLCPCB or similar (no solder stencil required here?) <br/>
+- Assembly: Assemble/solder the test setup <br/>
+- Programming: Modify the VESC firmware to work with the test setup <br/>
+- Verification: Use VESC tool (computer software) to interface with the test setup, test sensors for correct readings through this software <br/>
+- Testing: Connect a small motor and tweak settings <br/>
+- Hardware revision (if necessary): Revise test setup hardware to resolved issues found in steps above <br/>
 
 ### Real Deal:
-Schematic: Use lessons learned from the above project to design an all-in-one schematic with onboard STM32F405 <br/>
-- Won't somebody think of the GPIO protection! <br/>
-Layout: Design the PCB layout <br/>
-- May consist of a seperate logic & driver board? <br/>
-Order PCB: JLCPCB or similar, with solder stencil <br/>
-Aquisition: Purchase parts required <br/>
-Assembly: Assemble/solder PCB  <br/>
-Programming: Flash firmware developed above <br/>
-Verification: Connect VESC tool to verify connectivity and test sensors <br/>
-Testing: Connect a small motor and tweak settings <br/>
-Hardware revision (if necessary): Revise PCB design and repeat above steps <br/>
+- Schematic: Use lessons learned from the above project to design an all-in-one schematic with onboard STM32F405 <br/>
+  - Won't somebody think of the GPIO protection! <br/>
+- Layout: Design the PCB layout <br/>
+  - May consist of a seperate logic & driver board? <br/>
+- Order PCB: JLCPCB or similar, with solder stencil <br/>
+- Aquisition: Purchase parts required <br/>
+- Assembly: Assemble/solder PCB  <br/>
+- Programming: Flash firmware developed above <br/>
+- Verification: Connect VESC tool to verify connectivity and test sensors <br/>
+- Testing: Connect a small motor and tweak settings <br/>
+- Hardware revision (if necessary): Revise PCB design and repeat above steps <br/>
 
 ## Design Decisions
 
