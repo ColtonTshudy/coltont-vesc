@@ -33,34 +33,34 @@ This project is intended to improve my ability to understand and design circuits
 ## Tasks
 
 ### Prototyping:
-Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board to interface with a STM32F07 dev board
-- Consists of mosfet driver and power stage design. Control board is handled mostly by the development board.
-Layout: Design the PCB layout (may have to meet with colleagues or professors or other online research)
-Acquisition: Purchase parts required for the test setup (STM32F407 dev board, pcb described above)
-Order PCB: JLCPCB or similar (no solder stencil required here?)
-Assembly: Assemble/solder the test setup
-Programming: Modify the VESC firmware to work with the test setup
-Verification: Use VESC tool (computer software) to interface with the test setup, test sensors for correct readings through this software
-Testing: Connect a small motor and tweak settings
-Hardware revision (if necessary): Revise test setup hardware to resolved issues found in steps above
+Schematic: Referencing the offical VESC schematic as well as other VESC based projects, design a suitible test board to interface with a STM32F07 dev board <br/>
+- Consists of mosfet driver and power stage design. Control board is handled mostly by the development board. <br/>
+Layout: Design the PCB layout (may have to meet with colleagues or professors or other online research) <br/>
+Acquisition: Purchase parts required for the test setup (STM32F407 dev board, pcb described above) <br/>
+Order PCB: JLCPCB or similar (no solder stencil required here?) <br/>
+Assembly: Assemble/solder the test setup <br/>
+Programming: Modify the VESC firmware to work with the test setup <br/>
+Verification: Use VESC tool (computer software) to interface with the test setup, test sensors for correct readings through this software <br/>
+Testing: Connect a small motor and tweak settings <br/>
+Hardware revision (if necessary): Revise test setup hardware to resolved issues found in steps above <br/>
 
 ### Real Deal:
-Schematic: Use lessons learned from the above project to design an all-in-one schematic with onboard STM32F405
-- Won't somebody think of the GPIO protection!
-Layout: Design the PCB layout
-- May consist of a seperate logic & driver board?
-Order PCB: JLCPCB or similar, with solder stencil
-Aquisition: Purchase parts required
-Assembly: Assemble/solder PCB 
-Programming: Flash firmware developed above
-Verification: Connect VESC tool to verify connectivity and test sensors
-Testing: Connect a small motor and tweak settings
-Hardware revision (if necessary): Revise PCB design and repeat above steps
+Schematic: Use lessons learned from the above project to design an all-in-one schematic with onboard STM32F405 <br/>
+- Won't somebody think of the GPIO protection! <br/>
+Layout: Design the PCB layout <br/>
+- May consist of a seperate logic & driver board? <br/>
+Order PCB: JLCPCB or similar, with solder stencil <br/>
+Aquisition: Purchase parts required <br/>
+Assembly: Assemble/solder PCB  <br/>
+Programming: Flash firmware developed above <br/>
+Verification: Connect VESC tool to verify connectivity and test sensors <br/>
+Testing: Connect a small motor and tweak settings <br/>
+Hardware revision (if necessary): Revise PCB design and repeat above steps <br/>
 
 ## Design Decisions
 
 ### Brushless Motor Control Methodology
-Controlling the speed of a brushless DC motor requires modulating the voltage at the three phases of the motor, referred to as U, V, W. There are generally two methodologies for controlling brushless DC motors: pulse width modulation (PWM) and field oriented control (FOC).
+Controlling the speed of a brushless DC motor requires modulating the voltage at the three phases of the motor, referred to as U, V, W. There are generally two methodologies for controlling brushless DC motors: pulse width modulation (PWM) and field oriented control (FOC). <br/>
 Based on preliminary research, field oriented control (FOC) provides more low-end torque but lower top speeds. PWM control provides higher top speed but lower torque. Utilizing the VESC firmware, we will be able to swap between these two modes, provided we use the VESC 6 hardware standard.
 
 ### Feature set
