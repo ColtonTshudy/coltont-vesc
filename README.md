@@ -1,5 +1,5 @@
 ## Members
-<div>Colton Tshudy, EE CRA '24, coltont@vt.edu</div>
+Colton Tshudy, EE CRA '24, coltont@vt.edu<br />
 <img src="./images/me.png" />
 
 ## Repo Link
