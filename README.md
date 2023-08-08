@@ -45,8 +45,10 @@ Testing: Connect a small motor and tweak settings
 Hardware revision (if necessary): Revise test setup hardware to resolved issues found in steps above
 
 Real Deal:
-Schematic: Use lessons learned from the above project to design an all-in-one PCB with onboard STM32F405
+Schematic: Use lessons learned from the above project to design an all-in-one schematic with onboard STM32F405
+- Won't somebody think of the GPIO protection!
 Layout: Design the PCB layout
+- May consist of a seperate logic & driver board?
 Order PCB: JLCPCB or similar, with solder stencil
 Aquisition: Purchase parts required
 Assembly: Assemble/solder PCB 
