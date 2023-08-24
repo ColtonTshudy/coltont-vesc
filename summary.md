@@ -1,8 +1,8 @@
 # Student Names 
-Henry Forsyth
+Colton Tshudy
 
 # Summary
-This is a testing doc to see if I can pull it into the website
+This project aims to produce a 3 phase FOC (field oriented control) motor controller based on the open source VESC design by Benjamin Vedder.
 
 # Date Started
-11-16-2000
+8-24-2023
