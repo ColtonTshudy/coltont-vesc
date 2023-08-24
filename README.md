@@ -3,7 +3,7 @@ Colton Tshudy, EE CRA '24, coltont@vt.edu<br />
 <img src="./images/me.png" />
 
 ## Repo Link
-<a class="button is-link" href="https://github.com/ColtonTshudy/coltont-vesc" >https://github.com/ColtonTshudy/coltont-vesc</a>
+<a class="button is-link" href="https://github.com/ColtonTshudy/ctesc-pcb" >PCB GitHub Repo</a>
 
 ## Photo
 Image courtesy of <a href="https://vesc-project.com/">VESC</a> open-source project under the MIT open-source license. Original schematic by Benjamin Vedder.
